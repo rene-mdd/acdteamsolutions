@@ -2869,7 +2869,7 @@ li .shop-cart {
   }
 }
 .home-contact-container {
-    background-color: #f7f7f7;
+  background-color: #f7f7f7;
 }
 .safety-container {
   .safety-img-wrapper {
@@ -2896,17 +2896,66 @@ li .shop-cart {
       max-height: 40px;
     }
   }
-
 }
 .why-choose-us-container {
- background-color: #f7f7f7;
+  background-color: #f7f7f7;
 }
 .custom-footer {
   background-color: #f7f7f7;
 }
-  .small-emoji {
-  width: 14px !important;   /* adjust size here */
+.small-emoji {
+  width: 14px !important; /* adjust size here */
   height: 14px !important;
   height: auto;
   display: inline-block;
+}
+
+.why-us-text-wrapper {
+  h5 {
+    font-size: x-large;
+  }
+  span {
+    font-size: x-large;
+  }
+  @media (max-width: 1700px) {
+    h5 {
+      font-size: large;
+    }
+    span {
+      font-size: large;
+    }
+  }
+    @media (max-width: 1400px) {
+    h5 {
+      font-size: 14px;
+    }
+    span {
+      font-size: 14px;
+    }
+  }
+      @media (max-width: 1200px) {
+    h5 {
+      font-size: large;
+    }
+    span {
+      font-size: large;
+    }
+  }
+}
+
+.portfolio-wrapper {
+.portfolio-item {
+  border-radius: 8px;
+}
+.portfolio-overlay {
+  border-radius: 8px;
+}
+} 
+.btn-color {
+  background-color: #04769A;
+  color: white;
+}
+.banner-consulation {
+  background: rgba(7, 9, 21, 0.7);
+  color: white;
 }

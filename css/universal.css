@@ -2553,3 +2553,51 @@ li .shop-cart a:hover {
   height: auto;
   display: inline-block;
 }
+
+.why-us-text-wrapper h5 {
+  font-size: x-large;
+}
+.why-us-text-wrapper span {
+  font-size: x-large;
+}
+@media (max-width: 1700px) {
+  .why-us-text-wrapper h5 {
+    font-size: large;
+  }
+  .why-us-text-wrapper span {
+    font-size: large;
+  }
+}
+@media (max-width: 1400px) {
+  .why-us-text-wrapper h5 {
+    font-size: 14px;
+  }
+  .why-us-text-wrapper span {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1200px) {
+  .why-us-text-wrapper h5 {
+    font-size: large;
+  }
+  .why-us-text-wrapper span {
+    font-size: large;
+  }
+}
+
+.portfolio-wrapper .portfolio-item {
+  border-radius: 8px;
+}
+.portfolio-wrapper .portfolio-overlay {
+  border-radius: 8px;
+}
+
+.btn-color {
+  background-color: #04769A;
+  color: white;
+}
+
+.banner-consulation {
+  background: rgba(7, 9, 21, 0.7);
+  color: white;
+}/*# sourceMappingURL=universal.css.map */
