@@ -13,6 +13,7 @@
   <link href="css/bootstrap.min.css" rel="stylesheet" />
   <!-- Custom CSS-->
   <link href="css/universal.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" class="top">
@@ -116,25 +117,25 @@
         </div>
       </div>
       <div class="row">
-        <div data-wow-delay=".2s" class="col-lg-6 col-sm-6 wow fadeIn">
+        <div data-wow-delay=".2s" class="col-lg-3 col-sm-6 wow fadeIn animated">
           <img src="./img/icons/chimney-sweep.png" width="150" />
           <h4>Chimney Cleaning</h4>
-          <p>Fireplace & Chimney Repair</p>
+          <!-- <p>Fireplace & Chimney Repair</p> -->
         </div>
-        <div data-wow-delay=".4s" class="col-lg-6 col-sm-6 wow fadeIn air-duct">
+        <div data-wow-delay=".4s" class="col-lg-3 col-sm-6 wow fadeIn animated air-duct">
           <img src="./img/icons/santa-claus.png" width="150" />
           <h4>Chimney inspection</h4>
-          <p>We do a free inspection of your chimney</p>
+          <!-- <p>We do a free inspection of your chimney</p> -->
         </div>
-        <div data-wow-delay=".4s" class="col-lg-6 col-sm-6 wow fadeIn air-duct">
+        <div data-wow-delay=".4s" class="col-lg-3 col-sm-6 wow fadeIn animated air-duct">
           <img src="./img/icons/chimney-design.png" width="150" />
           <h4>Chimney Design</h4>
-          <p>We help you design a reliable chimney</p>
+          <!-- <p>We help you design a reliable chimney</p> -->
         </div>
-        <div data-wow-delay=".4s" class="col-lg-6 col-sm-6 wow fadeIn air-duct">
+        <div data-wow-delay=".4s" class="col-lg-3 col-sm-6 wow fadeIn animated air-duct">
           <img src="./img/icons/air-duct-system.png" width="150" />
           <h4>Dryer Vent</h4>
-          <p>Dryer Vent Cleaning & Sanitizing</p>
+          <!-- <p>Dryer Vent Cleaning & Sanitizing</p> -->
         </div>
       </div>
       <div class="row"><a href="services.html"><button id="mc-embedded-subscribe" type="submit" name="subscribe"
@@ -148,8 +149,8 @@
   <section id="contact" class="home-contact-container">
     <div class="container">
       <div class="row">
-        <div class="col-md-5">
-          <h3>contact us</h3>
+        <div class="col-md-5 contact-us-text-wrapper">
+          <h3>Contact us</h3>
           <p>
             Feel free to contact us. A business has to be involving, it has to
             be fun, and it has to exercise your creative instincts. Start
@@ -210,10 +211,14 @@
     </div>
   </section>
   <!-- contact end -->
-
+<div class="carousel">
+  <div class="carousel-cell col-lg-4 col-sm-6 carousel-logo-wrapper"><img src="/img/partners/home-advisor.png" /></div>
+  <div class="carousel-cell col-lg-4 col-sm-6 carousel-logo-wrapper"><img src="/img/partners/networx-free.jpg" /></div>
+  <div class="carousel-cell col-lg-4 col-sm-6 carousel-logo-wrapper"><img src="/img/partners/top-pro.png" /></div>
+</div>
 
   <section id="portfolio" class="portfolio-wide">
-    <div class="container text-center">
+    <div class="container text-center why-us-container">
       <div class="row">
         <div class="col-sm-10 col-sm-offset-1">
           <h3>Why Choose Us</h3>
@@ -326,7 +331,7 @@
     <section id="action-slider" class="safety-container">
     <div class="container">
       <div class="row">
-        <div class="col-lg-5">
+        <div class="col-lg-5 safety-text-wrapper">
           <h3>Safety Is Our Priority</h3>
           <p>
             Chimneys and venting systems play a critical role in protecting your home from fire hazards, smoke issues,
@@ -473,8 +478,8 @@
       <div class="row">
         <div class="col-md-10">
           <h3 class="no-pad">
-            Schedule an inspection or consultation today and let our team help ensure your chimney system is safe and
-            operating properly.
+            Schedule an inspection today and let our team help ensure your chimney system is safe and
+            ready to use.
           </h3>
         </div>
         <div class="col-md-2 text-right">
@@ -536,6 +541,7 @@
   <script src="js/map.js"></script>
   <!-- Custom Theme JavaScript-->
   <script src="js/universal.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>

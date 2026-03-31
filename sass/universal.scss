@@ -342,7 +342,7 @@ select {
 
 /* Buttons */
 .btn {
-  font-size: 12px !important;
+  font-size: 19px !important;
   letter-spacing: 2px;
   outline: 0;
   text-transform: uppercase;
@@ -534,7 +534,7 @@ a .fa {
   }
   &.top-nav-collapse .navbar-brand {
     font-size: 22px;
-    padding-top: 16px;
+    padding-top: 6px;
   }
 }
 
@@ -2848,8 +2848,11 @@ li .shop-cart {
 // custom styles:
 
 .services-wrapper {
+  h2 {
+    font-size: 40px;
+  }
   h4 {
-    font-size: x-large;
+    font-size: large;
     margin-bottom: 20px;
   }
   p {
@@ -2861,6 +2864,9 @@ li .shop-cart {
 }
 .reviews-container {
   background-color: white;
+  h3 {
+    font-size: 40px;
+  }
   .rating-img {
     height: auto !important;
   }
@@ -2868,8 +2874,16 @@ li .shop-cart {
     height: 500px;
   }
 }
+.why-us-container {
+  h3 {
+    font-size: 40px;
+  }
+}
 .home-contact-container {
   background-color: #f7f7f7;
+    h3 {
+    font-size: xx-large;
+  }
 }
 .safety-container {
   .safety-img-wrapper {
@@ -2882,7 +2896,7 @@ li .shop-cart {
   .navbar-brand {
     padding-top: 0px;
     .logo {
-      max-height: 40px;
+      max-height: 55px;
     }
   }
 }
@@ -2890,15 +2904,12 @@ li .shop-cart {
   .navbar-brand {
     margin-bottom: 20px;
     .logodark {
-      max-height: 40px;
+      max-height: 55px;
     }
     .logo {
-      max-height: 40px;
+      max-height: 55px;
     }
   }
-}
-.why-choose-us-container {
-  background-color: #f7f7f7;
 }
 .custom-footer {
   background-color: #f7f7f7;
@@ -2958,4 +2969,35 @@ li .shop-cart {
 .banner-consulation {
   background: rgba(7, 9, 21, 0.7);
   color: white;
+}
+.contact-us-text-wrapper {
+  p {
+    color: black;
+    font-size: x-large;
+  }
+  h5 {
+    font-size: large;
+  }
+}
+.safety-text-wrapper {
+  h3 {
+    font-size: 40px;;
+  }
+  p {
+    color: black;
+    font-size: x-large;
+  }
+}
+
+// carrousel
+
+.carousel {
+  display: flex;
+  align-items: center;
+  height: 300px;
+  background-color: white;
+  .carousel-logo-wrapper {
+    margin: 0 auto 0 auto;
+    text-align: center;
+  }
 }
