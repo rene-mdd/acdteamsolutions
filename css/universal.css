@@ -2420,7 +2420,7 @@ li .shop-cart a:hover {
   color: #337ab7;
 }
 
-.sitemap-wrapper {
+.custom-footer .sitemap-wrapper {
   display: flex;
   flex-direction: column;
 }

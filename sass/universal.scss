@@ -2754,10 +2754,11 @@ li .shop-cart {
     }
   }
 }
-
-.sitemap-wrapper {
-  display: flex;
-  flex-direction: column;
+.custom-footer {
+  .sitemap-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .footer-small {
