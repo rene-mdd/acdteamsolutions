@@ -14,6 +14,11 @@
   <!-- Custom CSS-->
   <link href="css/universal.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" class="top">
@@ -211,11 +216,13 @@
     </div>
   </section>
   <!-- contact end -->
-<div class="carousel">
-  <div class="carousel-cell col-lg-4 col-sm-6 carousel-logo-wrapper"><img src="/img/partners/home-advisor.png" /></div>
-  <div class="carousel-cell col-lg-4 col-sm-6 carousel-logo-wrapper"><img src="/img/partners/networx-free.jpg" /></div>
-  <div class="carousel-cell col-lg-4 col-sm-6 carousel-logo-wrapper"><img src="/img/partners/top-pro.png" /></div>
-</div>
+  <div class="carousel">
+    <div class="carousel-cell col-lg-4 col-sm-6 carousel-logo-wrapper"><img src="/img/partners/home-advisor.png" />
+    </div>
+    <div class="carousel-cell col-lg-4 col-sm-6 carousel-logo-wrapper"><img src="/img/partners/networx-free.jpg" />
+    </div>
+    <div class="carousel-cell col-lg-4 col-sm-6 carousel-logo-wrapper"><img src="/img/partners/top-pro.png" /></div>
+  </div>
 
   <section id="portfolio" class="portfolio-wide">
     <div class="container text-center why-us-container">
@@ -328,7 +335,7 @@
       </div>
     </div>
   </section>
-    <section id="action-slider" class="safety-container">
+  <section id="action-slider" class="safety-container">
     <div class="container">
       <div class="row">
         <div class="col-lg-5 safety-text-wrapper">
@@ -366,26 +373,30 @@
       </div>
     </div>
   </section>
-      <!-- Facts section-->
-    <section class="facts section-small bg-img">
-      <div class="overlay"></div>
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-sm-3"><span data-min="0" data-max="400" data-delay="1" data-increment="1" class="numscroller">0</span>
-            <h5 class="no-pad">Chimney cleanings</h5>
-          </div>
-          <div class="col-sm-3"><span data-min="0" data-max="200" data-delay="4" data-increment="3" class="numscroller">0</span>
-            <h5 class="no-pad">Dryer vents</h5>
-          </div>
-          <div class="col-sm-3"><span data-min="0" data-max="600" data-delay="1" data-increment="1" class="numscroller">0</span>
-            <h5 class="no-pad">Inspections</h5>
-          </div>
-          <div class="col-sm-3"><span data-min="0" data-max="35" data-delay="2" data-increment="1" class="numscroller">0</span>
-            <h5 class="no-pad">Repairs</h5>
-          </div>
+  <!-- Facts section-->
+  <section class="facts section-small bg-img">
+    <div class="overlay"></div>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-sm-3"><span data-min="0" data-max="400" data-delay="1" data-increment="1"
+            class="numscroller">0</span>
+          <h5 class="no-pad">Chimney cleanings</h5>
+        </div>
+        <div class="col-sm-3"><span data-min="0" data-max="200" data-delay="4" data-increment="3"
+            class="numscroller">0</span>
+          <h5 class="no-pad">Dryer vents</h5>
+        </div>
+        <div class="col-sm-3"><span data-min="0" data-max="600" data-delay="1" data-increment="1"
+            class="numscroller">0</span>
+          <h5 class="no-pad">Inspections</h5>
+        </div>
+        <div class="col-sm-3"><span data-min="0" data-max="35" data-delay="2" data-increment="1"
+            class="numscroller">0</span>
+          <h5 class="no-pad">Repairs</h5>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
   <!-- Footer Section-->
 
@@ -473,16 +484,18 @@
       </div>
     </div>
   </section>
-    <section class="action section-small bg-gray2 banner-consulation">
+  <section class="action section-small bg-gray2 banner-consulation">
     <div class="container wow fadeIn">
       <div class="row">
-        <div class="col-md-10">
+        <div class="col-10 text-center">
           <h3 class="no-pad">
             Schedule an inspection today and let our team help ensure your chimney system is safe and
             ready to use.
           </h3>
         </div>
-        <div class="col-md-2 text-right">
+      </div>
+      <div class="row">
+        <div class="col-10 text-center">
           <a href="/contact.html" class="btn btn-color">get it now</a>
         </div>
       </div>
@@ -493,14 +506,17 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-4">
-          <h6>
-            Copyright: ACD Teams Solutions
-          </h6>
+          <img src="img/logo.png" alt="Logo" width="100" class="logo" />
         </div>
-        <div class="col-sm-3 col-sm-offset-1">
-          <!-- <h6>We <i class="fa fa-heart fa-fw"></i> creative people</h6> -->
+        <div class="col-sm-2 sitemap-wrapper">
+          <a href="/">Home</a>
+          <a href="/about.html">About</a>
         </div>
-        <div class="col-sm-3 col-sm-offset-1 text-right">
+        <div class="col-sm-2 sitemap-wrapper">
+          <a href="/services.html">Service</a>
+          <a href="/contact.html">Contact</a>
+        </div>
+        <div class="col-sm-4">
           <ul class="list-inline">
             <li>
               <a href="/"><i class="fa fa-twitter fa-fw fa-lg"></i></a>
@@ -516,6 +532,11 @@
             </li>
           </ul>
         </div>
+      </div>
+      <div class="row copyright-wrapper">
+        <h6>
+          Copyright: ACD Teams Solutions
+        </h6>
       </div>
     </div>
   </section>

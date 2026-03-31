@@ -53,6 +53,7 @@ Table of contents
 @import "font-awesome.min.css";
 @import "animate.min.css";
 @import "swipebox.css";
+@import "/css/fonts.css";
 /* Base structure */
 html {
   width: 100% !important;
@@ -62,7 +63,7 @@ html {
 body {
   width: 100% !important;
   height: 100% !important;
-  font: normal 15px/1.8 Raleway, sans-serif;
+  font: normal 15px/1.8 "Iosevka Charon", monospace, sans-serif;
   letter-spacing: 0.03em;
   color: #444;
   background-color: #fff;
@@ -549,7 +550,6 @@ a .fa:hover {
 
 .navbar-custom a {
   color: #fff;
-  font-family: "Raleway", sans-serif;
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
@@ -558,10 +558,13 @@ a .fa:hover {
 }
 .navbar-custom .nav li a {
   transition: all 0.4s ease-in-out;
+  font-size: large;
 }
 .navbar-custom .nav li a:hover {
   outline: 0;
   background-color: transparent;
+  text-decoration: underline;
+  color: #337ab7;
 }
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
   outline: 0;
@@ -993,6 +996,7 @@ a.btn-nav .btn {
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
     color: #999;
+    font-size: x-large;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #fff;
@@ -2319,6 +2323,9 @@ li .shop-cart a:hover {
   .shop-item img {
     width: 100%;
   }
+  .top-title-space {
+    margin-top: 80px;
+  }
 }
 @media (max-width: 991px) {
   .action .btn {
@@ -2406,9 +2413,16 @@ li .shop-cart a:hover {
 .footer a {
   text-decoration: none;
   opacity: 1;
+  font-size: large;
 }
 .footer a:hover {
-  text-decoration: none;
+  text-decoration: underline;
+  color: #337ab7;
+}
+
+.sitemap-wrapper {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-small {
@@ -2602,7 +2616,7 @@ li .shop-cart a:hover {
 }
 
 .btn-color {
-  background-color: #04769A;
+  background-color: #04769a;
   color: white;
 }
 
@@ -2627,6 +2641,26 @@ li .shop-cart a:hover {
   font-size: x-large;
 }
 
+.section-small #carousel-light2 {
+  margin-top: 0;
+  height: auto;
+}
+.section-small .who-we-are-wrapper h3 {
+  font-size: 40px;
+}
+.section-small .who-we-are-wrapper p {
+  font-size: x-large;
+}
+
+.services-wrapper .chimney-cleaning {
+  width: 100%;
+  height: auto;
+}
+
+.dryer-vent-wrapper {
+  border-bottom: 1px rgb(228, 228, 228) solid;
+}
+
 .carousel {
   display: flex;
   align-items: center;
@@ -2636,4 +2670,7 @@ li .shop-cart a:hover {
 .carousel .carousel-logo-wrapper {
   margin: 0 auto 0 auto;
   text-align: center;
+}
+.carousel .home-advisor-img {
+  border-radius: 8px;
 }
